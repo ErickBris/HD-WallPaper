@@ -1,0 +1,46 @@
+
+//Database Creation
+
+->Open phpmyadmin
+
+->Create database wallpaper
+
+->Import database from donwload package
+
+
+//Database Cofiguration
+
+->Goto Wallpaper web services folder
+
+->into includes folde,open connection.php file
+
+->Set you local server and live server configuration
+
+//local db 
+	
+	if($_SERVER['HTTP_HOST']=="localhost")
+	{
+	$serverIp="localhost";
+	$userName="root";
+	$password="";
+	$dbname="wallpaper";
+	
+	}else
+	{
+	//Live (Login into cpanel and set all these things.....)
+	 
+	$serverIp="localhost";
+	$userName="abac";
+	$password="pass";
+	$dbname="dbname";
+	}
+
+->Than fater run you web sevices in local server
+
+->If you want to put wallpaper web services into live server
+
+->Then login into your cpanel and create any new folder or subdomain
+
+->Put all files on this folder, create database and  configure connection file  
+
+->Run full path	 

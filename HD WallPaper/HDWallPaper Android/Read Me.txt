@@ -1,0 +1,6 @@
+actionbarsherlock-->Action bar library
+Cropper-->Crop lib
+google-play-service_lib-->for admob
+HDWallPaper-->Combine version for admob and Startapp
+HDWallPaperWithAdmob-->admob version
+HDWallPaperWithStartApp-->startapp version

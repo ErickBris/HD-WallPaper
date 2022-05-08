@@ -1,0 +1,59 @@
+//that file describe which class what to do?
+
+
+Package Name:
+	com.yourcompanyname.appname
+
+Classes of That Package
+1.AboutActivity-->activity that shows the about screen.
+2.AllPhotosFragment-->2nd tab that display listview of category
+3.CategoryItem-->Display Image of Category in Gridview
+4.FavoriteFragment-->3rd tab that display gridview of favorite
+5.LatestFragment-->1st tab that display gridview of latest
+6.MainActivity-->Activity that contain all tab
+7.PinchZoom-->Zoom in/out with pinch
+8.SlideImageActivity-->Activity that perform auto play,stop etc
+9.SplashActivity-->Splash Screen 
+10.TabsPagerAdapter-->Adapter of all MainActivity
+
+Package Name:
+	com.example.adapter
+
+Classes of That Package
+1.AllPhotosListAdapter-->Adapter of 2nd tab
+2.CategoryItemGridAdapter-->Adapter of CategoryItem Class
+3.FavoriteAdapter-->Adapter of FavoriteFragment
+4.LatestGridAdapter-->Adapter of LatestFragment
+5.PinchZoomPageAdapter-->Adapter of PinchZoom
+
+Package Name:
+	com.example.favorite
+
+Classes of That Package
+1.DatabaseHandler-->Database helper class that create local database of favorite
+2.POjo-->pojo class of DatabaseHandler.
+
+
+Package Name:
+	com.example.imageloader
+
+All Classes Related to Image Loading
+
+
+Package Name:
+	com.example.item
+
+Classes of That Package
+1.ItemAllPhotos-->Item Class of AllPhotosFragment
+2.ItemCategory-->Item Class of CategoryItem
+3.ItemLatest-->Item Class of LatestFragment
+
+Package Name:
+	com.example.util
+
+Classes of That Package
+1.AlertDialogManager-->that alert When Network Not Available
+2.Constant-->that store constant value of application
+3.JsonUtils-->that parse json service
+4.TouchImageView-->that use pinch zoom
+	

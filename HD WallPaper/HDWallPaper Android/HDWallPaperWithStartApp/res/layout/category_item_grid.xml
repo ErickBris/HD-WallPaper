@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center"
+    android:id="@+id/rootlayout"
+    android:background="@color/grid_back_color">
+    
+     <GridView
+         android:id="@+id/category_grid"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="#000000"
+         android:numColumns="auto_fit"
+         android:stretchMode="columnWidth" />
+
+</RelativeLayout>
